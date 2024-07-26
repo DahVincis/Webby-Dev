@@ -1,0 +1,324 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  height: 100%;
+  background: url('/scsuproject/site/img/fruit-background.png'), linear-gradient(to bottom, #fff, #16ad10);
+  color: #000;
+  background-size: cover, contain;
+  background-position: center, right bottom;
+  background-repeat: repeat, repeat;
+  opacity: 0.9;
+}
+
+main {
+  padding-bottom: 10%;
+}
+
+.raleway-site-body {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.concert-one-regular {
+  font-family: "Concert One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#inventory-container {
+  padding: 5%;
+}
+
+#inventory-container table {
+  width: 100%;
+}
+
+#inventory-container table, tbody, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.form-login [type=text], input[type=password], select, input[type=email], button[type=submit] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.form-login .login {
+  padding-bottom: 5%;
+}
+
+.container .row form {
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+span.psw {
+  float: left;
+  padding-top: 16px;
+}
+
+.login-form-container button, input[type=submit], button[type=submit] {
+  background-color: #08aa04;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.login-form-container button:hover, .wishlist_button:hover, input[type=submit]:hover, button[type=submit]:hover {
+  opacity: 0.8;
+}
+
+.wishlist_button {
+  margin: 2%;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  background-color: #08aa04;
+  color: white;
+  margin-left: 1%;
+}
+
+/* Account Page Styles */
+.account-container {
+  padding: 5%;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.account-container h3 {
+  padding-bottom: 20px;
+}
+
+.account-container label {
+  font-weight: bold;
+}
+
+.account-container input[type="text"],
+.account-container input[type="email"],
+.account-container input[type="password"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.account-container button[type="submit"] {
+  background-color: #08aa04;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.account-container button[type="submit"]:hover {
+  opacity: 0.8;
+}
+
+/* Navbar Styles */
+.navbar {
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: #333;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: #08aa04;
+}
+
+.navbar-text {
+  color: #08aa04;
+  font-weight: bold;
+  margin: 1%;
+}
+
+.navbar .form-inline .form-group .form-control {
+  border-radius: 4px;
+}
+
+.navbar .form-inline .input-group-btn .btn {
+  background-color: #08aa04;
+  color: white;
+  border-radius: 4px;
+}
+
+.navbar .form-inline .input-group-btn .btn:hover {
+  opacity: 0.8;
+}
+
+/* Wishlist Styles */
+#wishlist-container {
+  padding: 5%;
+}
+
+#wishlist-container table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#wishlist-container table, #wishlist-container th, #wishlist-container td {
+  border: 1px solid black;
+  text-align: center;
+}
+
+#wishlist-container th, #wishlist-container td {
+  padding: 12px;
+}
+
+/* Footer Styles */
+.footer {
+  color: white;
+  background-color: #c91d61;
+  background: linear-gradient(20deg,#08aa04,#edd81c,#f77813);
+  background-size: 1000% 1000% !important;
+  -webkit-animation: changeColors 30s ease infinite;
+  -moz-animation: changeColors 30s ease infinite;
+  -o-animation: changeColors 30s ease infinite;
+  animation: changeColors 30s ease infinite;
+  height: 10%;
+  bottom: 0;
+}
+
+.footer .footer-links-list .footer-link {
+  display: inline-block;
+  padding-right: 4%;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 20px;
+}
+
+.footer .footer-links-list .footer-link a {
+  color: white;
+}
+
+.footer #footer-company-name {
+  text-align: center;
+}
+
+@keyframes changeColors {
+  0% {
+      background-position: 0 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0 50%;
+  }
+}
+
+/* Styling buttons */
+.login-button, .logout-button, .account-button, .admin-button, .wishlist-button, .form-login input[type=submit] {
+  background-color: #08aa04;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  margin: 1%;
+  cursor: pointer;
+}
+
+.login-button:hover, .logout-button:hover, .account-button:hover, .admin-button:hover, .wishlist-button:hover, .form-login input[type=submit]:hover {
+  opacity: 0.8;
+}
+
+/* Styling for admin section */
+.form-login {
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+
+.form-login label {
+  font-weight: bold;
+  display: block;
+  margin-top: 10px;
+}
+
+.form-login input[type=text], .form-login input[type=password], .form-login input[type=email], .form-login select {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.purchase-history-container {
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.purchase-history-container h3 {
+  margin-bottom: 20px;
+}
+
+.purchase-history-container table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.purchase-history-container table, th, td {
+  border: 1px solid #dee2e6;
+}
+
+.purchase-history-container th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+.purchase-history-container th {
+  background-color: #e9ecef;
+}
+
+.purchase-history-container .search-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.purchase-history-container .search-container input[type="date"] {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.purchase-history-container .search-container button {
+  background-color: #08aa04;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.purchase-history-container .search-container button:hover {
+  opacity: 0.8;
+}
